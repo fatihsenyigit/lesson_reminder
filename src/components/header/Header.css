@@ -1,0 +1,15 @@
+.header-container {
+  background-image: linear-gradient(
+    to right,
+    rgb(211, 92, 224),
+    rgb(181, 153, 27)
+  );
+  padding: 0.1rem;
+  margin-top: 50px;
+}
+
+.header-container h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
