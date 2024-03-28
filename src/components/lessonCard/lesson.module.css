@@ -1,50 +1,59 @@
-
 .container {
-    background-color: rgba(128, 128, 128, 0.417);
+  background-color: rgba(128, 128, 128, 0.417);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+
+  button {
+    background-color: rgb(105, 52, 197);
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.8s;
+  }
+
+  button:hover {
+    background-color: rgb(80, 9, 202);
+    cursor: pointer;
+  }
+
+  span {
+    color: rgb(108, 5, 10);
+    font-weight: 600;
+  }
+}
+
+.scheduleContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem 1rem ;
-    margin-top: 2rem;
-    button {
-        background-color: rgb(105, 52, 197);
-        padding: .5rem 1.5rem;
-        border: 1px solid white;
-        font-weight: 600;
-        color: white;
-        border-radius: 20px;
-        transition: all .8s;
-    }
-
-    button:hover {
-        background-color: rgb(80, 9, 202);
-        cursor: pointer;
-    }
 }
 
-.lesson {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    img{
-        width: 40px;
-    }
+.schedule {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+width: 90%;
 }
 
 .lessonCard {
-    width: 30%;
     height: 100px;
+    width: 27%;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 1rem;
-}
-
-span {
-    color: rgb(108, 5, 10);
-    font-weight: 600;
+    img {
+        width: 50px;
+    }
 }

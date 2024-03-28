@@ -7,3 +7,5 @@ const Lesson = () => {
         </div>
     )
 }
+
+export default Lesson
